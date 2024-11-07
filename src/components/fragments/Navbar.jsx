@@ -78,12 +78,11 @@ const Navbar = () => {
             <div className="border-b my-10 border-b-special-bg"></div>
             <div className="flex justify-between">
               <div className="mx-auto sm:mx-0 self-center">
-                <img src="images/profile.png" alt="" />
+                <img src="images/profil.png" alt="" />
               </div>
               <div className="hidden sm:block">
-                  Username
-                  <br />
-                  View Profile
+              <div className="text-white font-bold">Username</div>
+              <div className="text-xs">View Profile</div>
               </div>
               <div className="hidden sm:block self-center justify-self-end">
                 <Icon.Kebab/>
